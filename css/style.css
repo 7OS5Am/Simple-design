@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alyamama:wght@300..900&display=swap');
+body{
+    font-family: "Alyamama", serif;
+}
+/* Nav Bar */
+.fa-shopping-cart{
+    color: #222;
+    font-size: 24px;
+}
+.fa-shopping-cart:hover{
+    color: crimson;
+}
+#carouselExampleCaptions img{
+    height: 100vh;
+}
+.carousel-caption{
+    background-color: hsla(219, 94%, 49%, 0.294);
+    border-radius: 20px;
+    bottom: 3rem;
+}
+.carousel .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+/* offcanvas */ 
+.continarr{
+    overflow: hidden !important;
+}
+.offcan-img{
+    width: 100%;
+    height: 300px;
+}
+.offcan-img:hover{
+    transform:skew(-5deg);
+    transition: ease all .5s;
+    cursor: pointer;
+}
+/* product */
+.title-product{
+    text-align: center;
+    border-bottom: 5px solid crimson;
+}
+.card img{
+    height: 250px;
+}
+i:hover{
+    color: crimson;
+    cursor: pointer;
+}
+
+.btn-dark:hover{
+    background: crimson;
+    border-radius: 20px;
+}
+.btn-danger:hover{
+    background: rgb(13 110 253);
+    border-radius: 20px;
+}
+.btn-primary:hover{
+    background: crimson;
+    border-radius: 20px;
+}
+.imgvio{
+    height: 250px !important;
+}
+.cart2{
+    color: #fff;
+    font-size: 16px;
+}
+.bordertext{
+    border-bottom: crimson 5px solid;
+}
+.contacts{
+    border: solid 1px #44444467;
+    border-radius: 8px;
+}
+#contact .input-group button{
+    border-radius: 20px 0 0 20px!important;
+}
+#contact{
+    height: 60vh;
+    background-image: url(../images/img3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.collapse .card-body{
+    background: #d6d2d2f1 !important;
+}
+.accordion-button::after{
+    display: none;
+}
+
+.input-group input{
+    border-radius: 0 !important;
+}
+.hide{
+    display: none !important;
+}
