@@ -97,3 +97,9 @@ i:hover{
 .hide{
     display: none !important;
 }
+@media (max-width:400px){
+    #carouselExampleCaptions img{
+        height: 60vh;
+    }
+
+}
